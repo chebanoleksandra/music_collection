@@ -1,0 +1,14 @@
+[
+    {
+        "Python": {
+            "collection": "Hello World!",
+            "age": 2025
+        }
+    },
+    {
+        "Python": {
+            "collection": "OOP",
+            "age": 2025
+        }
+    }
+]
