@@ -6,7 +6,7 @@ FILENAME = 'music_collection'
 try:
     with open(f"{FILENAME}.json", "r", encoding="UTF-8") as f:
         data = json.load(f)
-except json.decoder.JSONDecodeError:
+except json.decoder.JSONDecodeError: #found error that is responsible for json code errors
     data = []
 
 
